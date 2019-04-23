@@ -11,8 +11,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="utf-8">
     <title>Mmmmhmmm</title>
     <script src="jquery-1.10.2.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="my-app/src/App.js"></script>
+
     <link rel="stylesheet" type="text/css" href="main.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138890881-1"></script>
@@ -35,7 +34,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <script type="text/javascript">
 var utag_data = {
-}
+  "site_section"  : "Introduction to Tiana",
+  "page_name"     : "Home",
+  "country_code"  : "US",
+  "currency_code" : "USD",
+  "secret_data"   : "Meow"
+};
+utag.link({
+    "tealium_event"  : "social_share",
+    "social_network" : "Facebook",
+});
 </script>
 
 <!-- Loading script asynchronously -->
@@ -50,15 +58,15 @@ var utag_data = {
     <div class="container">
         <ul class="navigationHeader">
             <li class="menuTab"><a>Home</a></li>
-            <li class="menuTab"><a>About Me</a></li>
-            <li class="menuTab"><a>Projects</a></li>
-            <li class="menuTab"><a>Contact</a></li>
+            <li class="menuTab"><a href="pages/aboutme.html">About Me</a></li>
+            <li class="menuTab"><a href="pages/projects.html">Projects</a></li>
+            <li class="menuTab"><a href="pages/contact.html">Contact</a></li>
         </ul>
         <h1 class="tagline">What Do You Want To See?</h1>
         <div id="wrapboxes">
-            <div class="menuBox" id="aboutMe"><h1>About Me</h1></div>
-            <div class="menuBox" id="projects"><h1>Projects</h1></div>
-            <a href="pages/contact.html"><div class="menuBox" id="contact"><h1>Contact</h1></div></a>
+            <div class="menuBox" id="aboutMe"><a href="pages/aboutme.html">About Me</a></div>
+            <div class="menuBox" id="projects"><a href="pages/projects.html">Projects</a></div>
+            <div class="menuBox" id="contact"><a href="pages/contact.html">Contact</a></div>
         </div>
 
 
