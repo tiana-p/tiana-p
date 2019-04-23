@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\my-app",
+    "\\my-app\\src",
+    "\\my-app\\src\\Components",
+    "\\my-app\\src\\Components\\BackDrop",
+    "\\my-app\\src\\Components\\CloseButton",
+    "\\my-app\\src\\Components\\SideDrawer",
+    "\\my-app\\src\\Components\\Toolbar"
+  ],
+  "SelectedNode": "\\my-app\\src\\App.js",
+  "PreviewInSolutionExplorer": false
+}
