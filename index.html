@@ -1,66 +1,21 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KKMLTTT');</script>
-<!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <title>Mmmmhmmm</title>
-    <script src="jquery-1.10.2.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138890881-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-138890881-1');
-    </script>
-
-
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+  <body>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKMLTTT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <script type="text/javascript">
-var utag_data = {
-  "site_section"  : "Introduction to Tiana",
-  "page_name"     : "Home",
-  "country_code"  : "US",
-  "currency_code" : "USD",
-  "secret_data"   : "Meow"
-};
-utag.link({
-    "tealium_event"  : "social_share",
-    "social_network" : "Facebook",
-});
-</script>
-
-<!-- Loading script asynchronously -->
-<script type="text/javascript">
-    (function(a,b,c,d){
-    a='//tags.tiqcdn.com/utag/services-presentations/tiana/prod/utag.js';
-    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
-    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
-    })();
-</script>
-    <div id="app"></div>
     <div class="container">
         <ul class="navigationHeader">
             <li class="menuTab"><a>Home</a></li>
             <li class="menuTab"><a href="pages/aboutme.html">About Me</a></li>
             <li class="menuTab"><a href="pages/projects.html">Projects</a></li>
-            <li class="menuTab"><a href="pages/contact.html">Contact</a></li>
+            <li class="menuTab"><a id="contactpageclick" href="pages/contact.html">Contact</a></li>
         </ul>
         <h1 class="tagline">What Do You Want To See?</h1>
         <div id="wrapboxes">
@@ -72,7 +27,5 @@ utag.link({
 
 
     </div>
-
-
 </body>
 </html>
